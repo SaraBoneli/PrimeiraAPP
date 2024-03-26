@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {// classe que representa o 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {// método usado pelo sistema operacional para criar funções
-        super.onCreate(savedInstanceState);
+        super.onCreate(savedInstanceState);//cria funções
         setContentView(R.layout.activity_main);// constrói a interface da tela
 
         Button btnEnviar = findViewById(R.id.btn_enviar);// obtém o botão enviar
@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {// classe que representa o 
 
 
                 startActivity(i);//executa a intenção declarada acima
+                //comentando a toa
             }
         });
     }
